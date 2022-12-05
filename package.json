@@ -1,0 +1,40 @@
+{
+  "name": "eo-solution-middleware",
+  "version": "1.1.0",
+  "description": "A NodeJS Middleware that interact with EO-Solution Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "JavaScript",
+    "MSSQL"
+  ],
+  "author": "Varun Puttur",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.0.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "helmet": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mssql": "^8.1.0",
+    "mssql-to-csv": "^1.1.0",
+    "multer": "^1.4.4",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.18.0",
+    "tedious": "^14.4.0"
+  }
+}
